@@ -1,0 +1,98 @@
+header {
+    position: relative;
+    scroll-snap-align: start;
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    align-items: center;
+    overflow: hidden;
+    padding: 2em;
+}
+.header-title {
+    font-size: var(--fs-xl);
+    background: var(--clr-gradient-primary);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: default;
+}
+.title-one {
+    grid-column: span 3;
+}
+.title-two {
+    grid-column: span 2;
+}
+.header-items {
+    grid-column: span 1;
+    width: max-content;
+    margin-top: 4em;
+    padding: 1em;
+}
+.header-item-container {
+    font-size: var(--fs-md);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1em;
+    margin-bottom: 0.25em;
+}
+.header-item-icon {
+    margin-top: 2px;
+    fill: var(--clr-secondary);
+}
+.header-item-content a {
+    outline: none;
+    text-decoration: none;
+    color: white;
+}
+.header-item-content > a:focus,
+.header-item-container > a:active {
+    border-radius: 3px;
+    box-shadow: 0px 0px 0px 5px var(--clr-primary);
+}
+
+@media screen and (max-width: 40em) {
+    header {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(7, 1fr);
+    }
+    .title-one {
+        grid-column: span 1;
+        grid-row: 3;
+    }
+    .title-two {
+        grid-column: span 1;
+        grid-row: 4;
+    }
+    .header-items {
+        grid-column: span 1;
+        grid-row: 6;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+@media screen and (min-width: 40em) and (max-width: 62em) {
+    header {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+    }
+    .title-one {
+        grid-column: span 2;
+        grid-row: 2;
+    }
+    .title-two {
+        grid-column: span 1;
+        grid-row: 3;
+    }
+    .header-items {
+        grid-column: 2;
+        grid-row: 4;
+        margin: 0;
+        padding: 0;
+    }
+}

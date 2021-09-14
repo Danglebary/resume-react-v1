@@ -1,0 +1,76 @@
+.resume-master-container {
+    overflow: scroll;
+    scroll-snap-type: y mandatory;
+    width: 100vw;
+    max-height: 100vh;
+    color: white;
+}
+
+section {
+    position: relative;
+    scroll-snap-align: start;
+    width: 100%;
+    height: 100vh;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.about-me-content-container {
+    width: 90%;
+    height: 90%;
+}
+.about-me-title {
+    font-size: var(--fs-lg);
+    text-align: center;
+    margin-bottom: 2em;
+}
+.about-me-item-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+.about-me-content {
+    font-size: var(--fs-main);
+    max-width: 22em;
+    text-align: center;
+}
+.about-me-image {
+    max-width: 22em;
+    height: auto;
+    border-radius: 50%;
+}
+
+.colorful-text-primary {
+    color: var(--clr-secondary);
+}
+.colorful-text-secondary {
+    color: var(--clr-primary);
+}
+
+@media screen and (max-width: 40em) {
+    section {
+        padding-top: 4em;
+    }
+    .about-me-item-container {
+        flex-direction: column-reverse;
+    }
+    .about-me-image {
+        max-width: 6em;
+    }
+}
+
+@media screen and (min-width: 40em) and (max-width: 62em) {
+    section {
+        padding-top: 4em;
+    }
+    .about-me-item-container {
+        flex-direction: column-reverse;
+    }
+    .about-me-image {
+        max-width: 14em;
+    }
+}

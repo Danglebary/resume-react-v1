@@ -1,0 +1,17 @@
+.skills-list-container {
+    width: 90%;
+    height: 90%;
+}
+.skills-list-title {
+    font-size: var(--fs-lg);
+    text-align: center;
+    margin-bottom: 0.5em;
+}
+.skill-item-container {
+    margin-bottom: 1em;
+}
+.skill-item-label {
+    font-size: var(--fs-main);
+    margin-bottom: 0.125em;
+    margin-left: 0.5em;
+}
