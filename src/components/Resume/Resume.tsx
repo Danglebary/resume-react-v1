@@ -32,8 +32,10 @@ const Resume = ({}: Props) => {
             <TableOfContents />
             <Header />
             <section className="about-me-container">
-                <div id="aboutMe" className="about-me-content-container">
-                    <h2 className="about-me-title">About me</h2>
+                <div className="about-me-content-container">
+                    <h2 id="aboutMe" className="about-me-title">
+                        About me
+                    </h2>
                     <div className="about-me-item-container">
                         <p className="about-me-content">
                             I am a self-taught{' '}

@@ -17,10 +17,7 @@ li {
     list-style: none;
 }
 
-li:focus,
-li:active,
-li > a:active,
-li > a:focus {
+li > a:focus-visible {
     outline: none;
     border-radius: 3px;
     box-shadow: 0px 0px 0px 5px var(--clr-primary);
