@@ -4,7 +4,7 @@
     --fs-xl: clamp(6rem, 20vw + 1rem, 14rem);
     --fs-lg: 1.5rem;
     --fs-md: 1.25rem;
-    --fs-main: 0.9rem;
+    --fs-main: 1.05rem;
 
     /* COLOR */
     --clr-primary: hsl(245, 87.3%, 69%);
@@ -22,14 +22,14 @@
     :root {
         --fs-lg: 2.5rem;
         --fs-md: 1.5em;
-        --fs-main: 1em;
+        --fs-main: 1.2em;
     }
 }
 
 @media screen and (min-width: 64em) {
     :root {
         --fs-lg: 2.5rem;
-        --fs-main: 1.125rem;
+        --fs-main: 1.2rem;
     }
 }
 
@@ -39,6 +39,12 @@
         --fs-lg: 3rem;
         --fs-md: 1.5rem;
         --fs-main: 1.2rem;
+
+        --clr-gradient-primary: linear-gradient(
+            90deg,
+            rgb(103, 92, 227) 0%,
+            rgb(205, 246, 255) 90%
+        );
     }
 }
 

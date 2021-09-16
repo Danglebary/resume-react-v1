@@ -54,4 +54,7 @@ section {
     section {
         padding-top: 4em;
     }
+    .about-me-content {
+        margin-top: 5%;
+    }
 }
