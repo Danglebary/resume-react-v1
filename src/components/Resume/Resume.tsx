@@ -30,11 +30,11 @@ const Resume = ({}: Props) => {
                         <p className="about-me-content">
                             I am a self-taught{' '}
                             <span className="colorful-text-primary">
-                                full stack developer{' '}
+                                full stack developer
                             </span>
-                            from Olympia, Washington. I have worked on various
-                            projects ranging from web design and server
-                            management, to data science and web automation.
+                            . I have worked on various projects ranging from web
+                            design and server management, to data science and
+                            web automation.
                             <br /> As a developer, I have learned that one of
                             the most vital skills to have is the ability to
                             swiftly acquire knowledge and information you don’t
