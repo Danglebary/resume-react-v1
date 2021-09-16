@@ -1,5 +1,5 @@
 // General imports
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 // Style imports
 import './Resume.css';
 // Component imports
@@ -13,20 +13,10 @@ import {
     dataSkills,
     langaugeSkills
 } from '../../data';
-// Image imports
-import profilePic from '../../img/artist_pic_web.jpg';
 
 interface Props {}
 
 const Resume = ({}: Props) => {
-    const [showImg, setShowImg] = useState(false);
-
-    useEffect(() => {
-        setTimeout(() => {
-            setShowImg(true);
-        }, 100);
-    }, []);
-
     return (
         <div className="resume-master-container">
             <TableOfContents />
@@ -57,13 +47,6 @@ const Resume = ({}: Props) => {
                             organization and management skills that have helped
                             me become a better developer.
                         </p>
-                        {!showImg ? null : (
-                            <img
-                                className="about-me-image"
-                                src={profilePic}
-                                alt="Black and white portriat of Austin See with a white background"
-                            />
-                        )}
                     </div>
                 </div>
             </section>
