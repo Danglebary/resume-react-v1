@@ -1,42 +1,28 @@
 export const frontEndSkills: SkillData[] = [
     { skillName: 'Html', skillLevel: 90 },
-    { skillName: 'Vanilla Javascript', skillLevel: 85 },
-    { skillName: 'Typescript', skillLevel: 85 },
     { skillName: 'Css', skillLevel: 80 },
-    { skillName: 'React', skillLevel: 75 },
-    { skillName: 'web3.js', skillLevel: 75 },
-    { skillName: 'Sass, Scss', skillLevel: 55 },
-    { skillName: 'Bootstrap', skillLevel: 40 },
-    { skillName: 'MaterialUI, Chakra UI', skillLevel: 35 },
-    { skillName: 'Elm', skillLevel: 20 }
+    { skillName: 'React', skillLevel: 80 },
+    { skillName: 'Next', skillLevel: 70 }
 ];
 
 export const backEndSkills: SkillData[] = [
-    { skillName: 'Node.js', skillLevel: 90 },
-    { skillName: 'Flask, Django', skillLevel: 85 },
-    { skillName: 'SQL, postGresQL', skillLevel: 80 },
-    { skillName: 'web3.js, web3.py', skillLevel: 75 },
-    { skillName: 'graphQL', skillLevel: 70 },
-    { skillName: 'Web Sockets, Socket.io', skillLevel: 60 },
-    { skillName: 'AWS', skillLevel: 40 }
+    { skillName: 'Node / Express', skillLevel: 90 },
+    { skillName: 'graphQL', skillLevel: 80 },
+    { skillName: 'Flask / Django', skillLevel: 75 },
+    { skillName: 'Gin / Fiber', skillLevel: 75 }
 ];
 
 export const langaugeSkills: SkillData[] = [
-    { skillName: 'Javascript', skillLevel: 85 },
-    { skillName: 'Typescript', skillLevel: 85 },
+    { skillName: 'JavaScript', skillLevel: 90 },
+    { skillName: 'Typescript', skillLevel: 90 },
     { skillName: 'Python', skillLevel: 85 },
-    { skillName: 'C++', skillLevel: 40 },
-    { skillName: 'C#', skillLevel: 30 },
-    { skillName: 'Elm', skillLevel: 20 }
+    { skillName: 'Golang', skillLevel: 65 },
+    { skillName: 'C#', skillLevel: 40 }
 ];
 
 export const dataSkills: SkillData[] = [
-    { skillName: 'SQL', skillLevel: 80 },
-    { skillName: 'PostgresQL', skillLevel: 80 },
-    { skillName: 'web3.js, web3.py', skillLevel: 75 },
-    { skillName: 'graphQL', skillLevel: 70 },
-    { skillName: 'MongoDB', skillLevel: 65 },
+    { skillName: 'MySQL / PostgreSQL', skillLevel: 85 },
+    { skillName: 'NoSQL / MongoDB', skillLevel: 65 },
     { skillName: 'Pandas', skillLevel: 65 },
-    { skillName: 'numPy', skillLevel: 60 },
-    { skillName: 'Plotly', skillLevel: 50 }
+    { skillName: 'numPy', skillLevel: 60 }
 ];

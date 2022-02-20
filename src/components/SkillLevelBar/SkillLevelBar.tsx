@@ -1,6 +1,4 @@
-// General imports
 import React from 'react';
-// Style imports
 import './SkillLevelBar.css';
 
 interface Props {

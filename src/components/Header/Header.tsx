@@ -1,14 +1,10 @@
-// General imports
 import React from 'react';
-// Style imports
 import './Header.css';
 // Component imports
 import { AiOutlinePhone, AiOutlineMail, AiOutlineGithub } from 'react-icons/ai';
 import { GoLocation } from 'react-icons/go';
 
-interface Props {}
-
-const Header = ({}: Props) => {
+const Header = () => {
     return (
         <header>
             <h2 id="Home" className="header-title title-one">
@@ -18,7 +14,7 @@ const Header = ({}: Props) => {
             <div className="header-items">
                 <div className="header-item-container">
                     <GoLocation className="header-item-icon" />
-                    <p className="header-item-content">Olympia, Washington</p>
+                    <p className="header-item-content">Austin, TX</p>
                 </div>
                 <div className="header-item-container">
                     <AiOutlinePhone className="header-item-icon" />
@@ -29,7 +25,7 @@ const Header = ({}: Props) => {
                 <div className="header-item-container">
                     <AiOutlineMail className="header-item-icon" />
                     <p className="header-item-content">
-                        <a href="mailto:halfblowncontact@gmail.com">
+                        <a href="mailto:austinsee@danglebary.com">
                             austinsee@danglebary.com
                         </a>
                     </p>

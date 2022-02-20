@@ -9,7 +9,7 @@
     /* COLOR */
     --clr-primary: hsl(245, 87.3%, 69%);
     --clr-secondary: rgb(220, 167, 242);
-    --clr-dark-accent: rgb(145, 145, 167);
+    --clr-dark-accent: rgb(55, 55, 63);
 
     --clr-gradient-primary: linear-gradient(
         90deg,

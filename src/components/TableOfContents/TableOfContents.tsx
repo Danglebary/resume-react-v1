@@ -1,8 +1,5 @@
-// General imports
 import React, { useState } from 'react';
-// Style imports
 import './TableOfContents.css';
-// Hook imports
 import { useHeadingData } from '../../hooks/useHeadingData';
 import { useIntersectionObserver } from '../../hooks/useIntersectionObserver';
 

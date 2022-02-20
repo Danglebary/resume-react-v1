@@ -24,7 +24,7 @@ li > a:focus-visible {
 }
 
 a {
-    color: var(--clr-dark-accent);
+    color: rgb(138, 138, 161);
     text-decoration: none;
     transition: all 0.25s ease-out;
 }
