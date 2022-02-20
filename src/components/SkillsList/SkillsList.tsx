@@ -57,7 +57,7 @@ const SkillsList = ({ id, title }: Props) => {
                     ))}
                 </div>
                 <div className="skills-data">
-                    <h4 className="skills-title">Data Mgmt</h4>
+                    <h4 className="skills-title">Data Mgmt.</h4>
                     {dataSkills.map(({ skillName, skillLevel }, index) => (
                         <div
                             className="skill-item-container"
